@@ -1,0 +1,18 @@
+<div id="tab">
+    <div class="one">
+        <h1>活动专区</h1>
+        <span>更多活动<i class="icon iconfont icon-angle-right"></i></span>
+    </div>
+    <dl ng-repeat="key in infos">
+        <dt><img ng-src="{{key.src}}"></dt>
+        <dd>
+            <p>{{key.title}}</p>
+            <span>{{key.info}}</span>
+            <b>{{key.price}}</b>
+            <s>{{key.oldprice}}</s>
+        </dd>
+    </dl>
+</div>
+
+
+
